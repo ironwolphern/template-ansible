@@ -1,0 +1,41 @@
+---
+# This is an exapmple of a ansible playbook file with differents vars types, pre-tasks, post-tasks, roles, etc...
+- name: "Example playbook file"
+  hosts: localhost
+  gather_facts: true
+  become: yes
+  become_user: root
+
+  # Simple var inputs
+  vars:
+    var1: "Example string"
+    var2: 1234567890
+  # var input from files yml
+  vars_files:
+    - example-file.yml
+  #var input from stdin
+  vars_prompt:
+    - name: input var example
+      prompt: "Enter the var example: "
+      private: false  
+
+  # Pre-tasks to do before of a role
+  pre_tasks:
+    - name: Example pre-task playbook
+      ansible.builtin.debug:
+        msg: "------- This is an pre-task example playbook -------"
+
+  # role execution with vars input
+  roles:
+    - example-role
+  vars:
+    var_input_1: "{{ var1 }}"
+    var_input_2: "{{ var1 }}"
+
+  # Post-tasks to do after of a role
+  post_tasks:
+    - name: Example post-task playbook
+      ansible.builtin.debug:
+        msg: "------- This is an post-task example playbook -------"
+
+...
