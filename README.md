@@ -1,12 +1,12 @@
-# **template-ansible-role**
+# **template-ansible**
 ===========================
 
-Description of a ansible role
+Description of a ansible playbook
 
 *Requirements*
 --------------
 
-Requirements for this ansible role
+Requirements for this ansible
 
 *Role Variables*
 ----------------
