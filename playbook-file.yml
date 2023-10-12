@@ -3,7 +3,7 @@
 - name: "Example playbook file"
   hosts: localhost
   gather_facts: true
-  become: yes
+  become: true
   become_user: root
 
   # Simple var inputs
@@ -13,11 +13,11 @@
   # var input from files yml
   vars_files:
     - example-file.yml
-  #var input from stdin
+  # var input from stdin
   vars_prompt:
     - name: input var example
       prompt: "Enter the var example: "
-      private: false  
+      private: false
 
   # Pre-tasks to do before of a role
   pre_tasks:
@@ -27,15 +27,13 @@
 
   # role execution with vars input
   roles:
-    - example-role
-  vars:
-    var_input_1: "{{ var1 }}"
-    var_input_2: "{{ var1 }}"
+    - role: example-role
+      vars:
+        var_input_1: "{{ var1 }}"
+        var_input_2: "{{ var1 }}"
 
   # Post-tasks to do after of a role
   post_tasks:
     - name: Example post-task playbook
       ansible.builtin.debug:
         msg: "------- This is an post-task example playbook -------"
-
-...

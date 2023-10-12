@@ -1,0 +1,10 @@
+[all]
+localhost
+
+[windows]
+
+[windows:vars]
+
+[linux]
+
+[linux:vars]
