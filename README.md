@@ -1,6 +1,12 @@
 # **template-ansible**
 
+![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=flat&logo=ansible&logoColor=white)
+![License](https://badgen.net/github/license/ironwolphern/template-ansible)
+![Release](https://badgen.net/github/release/ironwolphern/template-ansible)
+![PRs](https://badgen.net/github/prs/ironwolphern/template-ansible)
+![Issues](https://badgen.net/github/issues/ironwolphern/template-ansible)
 [![Ansible Lint](https://github.com/ironwolphern/template-ansible/actions/workflows/ansible-lint.yml/badge.svg?event=pull_request)](https://github.com/ironwolphern/template-ansible/actions/workflows/ansible-lint.yml)
+![Dependabot](https://badgen.net/github/dependabot/ironwolphern/template-ansible)
 
 A brief description of the role goes here.
 
