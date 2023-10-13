@@ -1,5 +1,7 @@
 # **template-ansible**
 
+[![Ansible Lint](https://github.com/ironwolphern/template-ansible/actions/workflows/ansible-lint.yml/badge.svg?event=pull_request)](https://github.com/ironwolphern/template-ansible/actions/workflows/ansible-lint.yml)
+
 A brief description of the role goes here.
 
 ## *Requirements*
