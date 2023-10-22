@@ -26,11 +26,11 @@
         msg: "------- This is an pre-task example playbook -------"
 
   # role execution with vars input
-  roles:
-    - role: example-role
-      vars:
-        var_input_1: "{{ var1 }}"
-        var_input_2: "{{ var1 }}"
+  # roles:
+  #   - role: example-role
+  #     vars:
+  #       var_input_1: "{{ var1 }}"
+  #       var_input_2: "{{ var1 }}"
 
   # Post-tasks to do after of a role
   post_tasks:
