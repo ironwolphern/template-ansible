@@ -25,6 +25,12 @@
       ansible.builtin.debug:
         msg: "------- This is an pre-task example playbook -------"
 
+  # Tasks to do in a playbook
+  tasks:
+    - name: Example task playbook
+      ansible.builtin.debug:
+        msg: "------- This is an task example playbook -------"
+
   # role execution with vars input
   # roles:
   #   - role: example-role
