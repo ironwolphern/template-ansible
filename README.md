@@ -7,7 +7,7 @@
 ![Release](https://badgen.net/github/release/ironwolphern/template-ansible)
 ![PRs](https://badgen.net/github/prs/ironwolphern/template-ansible)
 ![Issues](https://badgen.net/github/issues/ironwolphern/template-ansible)
-[![Ansible Lint](https://github.com/ironwolphern/template-ansible/actions/workflows/ansible-lint.yml/badge.svg?event=pull_request)](https://github.com/ironwolphern/template-ansible/actions/workflows/ansible-lint.yml)
+[![Ansible Lint](https://github.com/ironwolphern/template-ansible/actions/workflows/ansible-lint.yml/badge.svg)](https://github.com/ironwolphern/template-ansible/actions/workflows/ansible-lint.yml)
 ![Dependabot](https://badgen.net/github/dependabot/ironwolphern/template-ansible)
 
 
