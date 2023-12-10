@@ -4,10 +4,11 @@
 
 
 ![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=flat&logo=ansible&logoColor=white)
-![License](https://badgen.net/github/license/ironwolphern/template-ansible)
-![Release](https://badgen.net/github/release/ironwolphern/template-ansible)
-![PRs](https://badgen.net/github/prs/ironwolphern/template-ansible)
-![Issues](https://badgen.net/github/issues/ironwolphern/template-ansible)
+![GitHub License](https://img.shields.io/github/license/ironwolphern/template-ansible)
+![GitHub release (with filter)](https://img.shields.io/github/v/release/ironwolphern/template-ansible)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/ironwolphern/template-ansible)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/ironwolphern/template-ansible)
+![GitHub issues](https://img.shields.io/github/issues/ironwolphern/template-ansible)
 [![Ansible Lint](https://github.com/ironwolphern/template-ansible/actions/workflows/ansible-lint.yml/badge.svg)](https://github.com/ironwolphern/template-ansible/actions/workflows/ansible-lint.yml)
 ![Dependabot](https://badgen.net/github/dependabot/ironwolphern/template-ansible)
 
@@ -50,7 +51,7 @@ Install my-project with npm
   npm install my-project
   cd my-project
 ```
-    
+
 ## Environment Variables
 
 To run this project, you will need to add the following environment variables to your .env file
